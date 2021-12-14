@@ -1,0 +1,23 @@
+{
+  "name": "the-roost-wiki.github.io",
+  "version": "1.0.0",
+  "description": "The Roost ☕ Coffee Shop is our final project for the Fullstack's Development course organized by the Industrial Business School in Spain. This project was developed from September to December 2021 with non commercial purposes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --port 1234",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolaski/the-roost-wiki.github.io.git"
+  },
+  "author": "ManuYuzu & Paolaski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paolaski/the-roost-wiki.github.io/issues"
+  },
+  "homepage": "https://github.com/paolaski/the-roost-wiki.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
