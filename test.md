@@ -4,4 +4,4 @@
 
 This is a sample of paragraph
 
-[Home](http://localhost:1234/)
+[Home](../)
