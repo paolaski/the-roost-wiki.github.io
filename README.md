@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Readme.md
 
 <a href="https://github.com/paolaski/The-Roost-Frontend/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/paolaski/The-Roost-Frontend?style=for-the-badge"></a>
