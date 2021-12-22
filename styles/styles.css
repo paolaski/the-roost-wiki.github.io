@@ -39,11 +39,22 @@ img.img {
 
 a {
   text-decoration: none;
-  color: var(--brown-w-light);
+  font-size: 1.2em;
+  color: var(--green);
 }
 a:link {
-  color: var(--brown-w-light);
+  color: var(--green);
 }
+a:hover {
+  color: var(--green-light);
+}
+a:active {
+  color: var(--green-dark);
+}
+a:visited {
+  color: var(--green);
+}
+
 :root {
   --black: #313133;
   --green-dark: #39393B;
@@ -70,7 +81,7 @@ a:link {
   font-style: normal;
 }
 @font-face {
-  font-family: "MADE Tommy Soft - Regular";
+  font-family: "MADETommySoft";
   src: local("MADE Tommy Soft Regular"), local("MADETommySoft-Regular"), url("./font/MADETommySoft.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
