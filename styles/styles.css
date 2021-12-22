@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .title {
   font-size: 3.5em;
   font-family: "MADE Tommy Soft - Bold", sans-serif;
@@ -9,7 +10,13 @@ header {
 }
 
 p {
+  font-size: 1.2em;
   font-family: "MADE Tommy Soft - Regular", sans-serif;
+}
+
+strong {
+  letter-spacing: 0.05em;
+  font-family: "MADE Tommy Soft - Bold", sans-serif;
 }
 
 .list {
@@ -19,6 +26,7 @@ p {
   font-size: 1.5em;
 }
 .list li::marker {
+  color: var(--brown-w-light);
   font-size: 1.5em;
   font-family: "MADE Tommy Soft - Black", sans-serif;
 }
@@ -33,25 +41,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img.img {
+  width: 800px;
   border-radius: 14px;
-  box-shadow: 4px 4px 8px var(--brown);
+  box-shadow: 4px 4px 8px #b4b0af;
 }
 
 a {
   text-decoration: none;
   font-size: 1.2em;
-  color: var(--green);
-}
-a:link {
-  color: var(--green);
+  color: var(--brown);
+  font-family: "MADE Tommy Soft - Bold", sans-serif;
 }
 a:hover {
-  color: var(--green-light);
+  color: var(--brown-dark);
 }
 a:active {
-  color: var(--green-dark);
+  color: var(--brown-w-light);
 }
 a:visited {
+  color: var(--brown);
+}
+a:visited::after {
+  content: "✔";
+}
+a--green {
+  color: var(--green);
+}
+a--green:hover {
+  color: var(--green-light);
+}
+a--green:active {
+  color: var(--green-dark);
+}
+a--green:visited {
   color: var(--green);
 }
 
@@ -70,19 +92,19 @@ a:visited {
 
 @font-face {
   font-family: "MADE Tommy Soft - Bold";
-  src: local("MADE Tommy Soft Bold"), local("MADETommySoft-Bold"), url("./font/MADETommySoft-Bold.ttf") format("truetype");
+  src: local("MADE Tommy Soft Bold"), local("MADETommySoft-Bold"), url("../font/MADETommySoft-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "MADE Tommy Soft - Black";
-  src: local("MADE Tommy Soft Black"), local("MADETommySoft-Black"), url("./font/MADETommySoft-Black.ttf") format("truetype");
+  src: local("MADE Tommy Soft Black"), local("MADETommySoft-Black"), url("../font/MADETommySoft-Black.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "MADETommySoft";
-  src: local("MADE Tommy Soft Regular"), local("MADETommySoft-Regular"), url("./font/MADETommySoft.ttf") format("truetype");
+  font-family: "MADE Tommy Soft - Regular";
+  src: local("MADE Tommy Soft Regular"), local("MADETommySoft-Regular"), url("../font/MADETommySoft.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
