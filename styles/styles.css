@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--brown-dark);
 }
 
+img.logo {
+  width: 250px;
+  padding: 1em;
+}
 img.img {
   width: 800px;
   border-radius: 14px;
@@ -53,7 +57,7 @@ a {
   font-family: "MADE Tommy Soft - Bold", sans-serif;
 }
 a:hover {
-  color: var(--brown-dark);
+  color: var(--brown-w-light);
 }
 a:active {
   color: var(--brown-w-light);
