@@ -1,0 +1,26 @@
+
+.title{
+    font-size: 3.5em;
+    font-family: 'MADE Tommy Soft - Bold', sans-serif;
+    color: var(--brown-dark);
+}
+
+header{
+    margin-top: 2em;
+}
+
+.list{
+    background-color: var(--brown-dark);
+    border-radius: 14px;
+    padding: 2em;
+    font-size: 1.5em;
+
+    &__link{
+        padding: 0.5em;
+    }
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'MADE Tommy Soft - Bold', sans-serif;
+    color: var(--brown-dark);
+}
