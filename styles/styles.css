@@ -8,19 +8,33 @@ header {
   margin-top: 2em;
 }
 
+p {
+  font-family: "MADE Tommy Soft - Regular", sans-serif;
+}
+
 .list {
   background-color: var(--brown-dark);
   border-radius: 14px;
-  padding: 2em;
+  padding: 2em 5em;
   font-size: 1.5em;
 }
+.list li::marker {
+  font-size: 1.5em;
+  font-family: "MADE Tommy Soft - Black", sans-serif;
+}
 .list__link {
+  font-family: "MADE Tommy Soft - Bold", sans-serif;
   padding: 0.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "MADE Tommy Soft - Bold", sans-serif;
   color: var(--brown-dark);
+}
+
+img.img {
+  border-radius: 14px;
+  box-shadow: 4px 4px 8px var(--brown);
 }
 
 a {
