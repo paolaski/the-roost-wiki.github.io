@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Readme.md
 
 <a href="https://github.com/paolaski/The-Roost-Frontend/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/paolaski/The-Roost-Frontend?style=for-the-badge"></a>
@@ -167,3 +168,10 @@ About our team:
 - Images: [Unsplash](https://unsplash.com/), [Freepik](https://www.freepik.es/home), [Emojipedia](https://emojipedia.org/)
 
 <small><p align="right">(<a href="#top">back to top</a>)</p></small>
+=======
+# the-roost-wiki.github.io
+
+The Roost ☕ Coffee Shop is our final project for the Fullstack's Development course organized by the Industrial Business School in Spain. This project was developed from September to December 2021 with non commercial purposes. 
+
+[Home](../)
+>>>>>>> 2133f74fccffeebe311613fbecc3452216b9e71c
