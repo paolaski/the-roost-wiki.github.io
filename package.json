@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run compile:sass && npx @11ty/eleventy --serve --port 1234",
+    "build": "npm run compile:sass && npx @11ty/eleventy --pathprefix 'the-roost-wiki.github.io'",
     "pages": "npx gh-pages -d _site",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:sass": "sass --watch ./styles/styles.scss ./styles/styles.css",
-    "compile:sass": "sass ./styles/styles.scss styles.css"
+    "watch:sass": "sass --watch ./styles/styles.scss ./public/styles/styles.css",
+    "compile:sass": "sass ./styles/styles.scss ./public/styles/styles.css"
   },
   "repository": {
     "type": "git",

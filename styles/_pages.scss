@@ -9,18 +9,49 @@ header{
     margin-top: 2em;
 }
 
+p{
+    font-size: 1.2em;
+    font-family: 'MADE Tommy Soft - Regular', sans-serif;
+}
+
+strong{
+    letter-spacing: 0.05em;
+    font-family: 'MADE Tommy Soft - Bold', sans-serif;
+}
+
 .list{
     background-color: var(--brown-dark);
     border-radius: 14px;
-    padding: 2em;
+    padding: 2em 5em;
     font-size: 1.5em;
 
+    & li::marker{
+        color: var(--brown-w-light);
+        font-size: 1.5em;
+        font-family: 'MADE Tommy Soft - Black', sans-serif;
+    }
+    
     &__link{
+        font-family: 'MADE Tommy Soft - Bold', sans-serif;
         padding: 0.5em;
     }
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'MADE Tommy Soft - Bold', sans-serif;
-    color: var(--brown-dark);
+    color: var(--brown-dark); 
 }
+
+img {
+    &.logo{
+        width: 250px;
+        padding: 1em;
+    }
+
+    &.img{
+    width: 800px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 8px #b4b0af;
+}
+}
+

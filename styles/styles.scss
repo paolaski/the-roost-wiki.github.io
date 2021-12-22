@@ -1,5 +1,5 @@
-@import 'pages';
-@import 'links';
+@import '_pages';
+@import '_links';
 
 :root{
     --black:         #313133;
@@ -17,15 +17,15 @@
 @font-face {
 	font-family: 'MADE Tommy Soft - Bold';
 	src: local('MADE Tommy Soft Bold'), local('MADETommySoft-Bold'),
-			url('./font/MADETommySoft-Bold.ttf') format('truetype');
+			url('../font/MADETommySoft-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
-}
+} 
 
 @font-face {
 	font-family: 'MADE Tommy Soft - Black';
 	src: local('MADE Tommy Soft Black'), local('MADETommySoft-Black'),
-			url('./font/MADETommySoft-Black.ttf') format('truetype');
+			url('../font/MADETommySoft-Black.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -33,7 +33,7 @@
 @font-face {
 	font-family: 'MADE Tommy Soft - Regular';
 	src: local('MADE Tommy Soft Regular'), local('MADETommySoft-Regular'),
-			url('./font/MADETommySoft.ttf') format('truetype');
+			url('../font/MADETommySoft.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }

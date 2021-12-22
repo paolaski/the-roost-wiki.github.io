@@ -1,20 +1,40 @@
 a{
     text-decoration: none;
-    color:var(--brown-w-light);
-    
-    &:link{
-        color:var(--brown-w-light);
-    }
+    font-size: 1.2em;
+
+    color: var(--brown);
+    font-family: 'MADE Tommy Soft - Bold', sans-serif;
+
 
     &:hover{
-
+        color: var(--brown-w-light);
     }
 
     &:active{
-
+        color: var(--brown-w-light);
     }
 
     &:visited{
-        
+        &::after{
+            content: '✔';
+        }
+        color: var(--brown);
+    }
+    
+
+    &--green{
+        color: var(--green);
+    
+        &:hover{
+            color: var(--green-light);
+        }
+    
+        &:active{
+            color: var(--green-dark);
+        }
+    
+        &:visited{
+            color: var(--green);
+        }
     }
 }

@@ -5,6 +5,6 @@
 
 {% for post in collections.posts %}
 
-1. [{{ post.data.title }}]({{ post.url }}){.list__link}
+1. [{{ post.data.title }}]({{ post.url | url }}){.list__link}
 
 {% endfor %}{.list}
