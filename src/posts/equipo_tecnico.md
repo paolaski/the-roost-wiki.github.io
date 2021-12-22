@@ -2,6 +2,7 @@
 layout: post.njk
 title: Equipo Técnico
 ---
+
 ![img](../../img/isabelle.png){.img}
 
 El quipo técnico que ha hecho posible nuestra transformación digital ha sido:

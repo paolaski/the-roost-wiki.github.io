@@ -26,6 +26,20 @@ Morgan, JWT, bcrypt, babel, cors, helmet, nodemon...
 - Volvernos locos del todo para hacer los componentes de react que se pongan bonitos solos (estructurando además los estilos un poquito mejor, siempre se puede).
 - Dejar de fingir y tener un back-end en condiciones, pero shhhhh...¡eso es un secreto!
 
+# Repositorios
+
+## Back-End
+
+- [Repositorio GitHub](https://github.com/ManuYuzu/The-Roost-Backend)
+
+## Front-End
+
+- [Repositorio GitHub](https://github.com/paolaski/The-Roost-Frontend)
+
+## Documentación
+
+- [Repositorio GitHub](https://github.com/paolaski/the-roost-wiki.github.io)
+
 <br/>
 
 ---
